@@ -1,0 +1,35 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'RickAndMorty-Beta' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for RickAndMorty-Beta
+  pod 'Alamofire', '~> 5.0'
+  pod 'RxSwift', '~> 5'
+  pod 'RxCocoa', '~> 5.1.1'
+  pod 'RxGesture'
+  pod 'XCoordinator', '~> 2.0'
+  pod 'XCoordinator/RxSwift', '~> 2.0'
+  pod 'XCoordinator/Combine', '~> 2.0'
+  pod 'Kingfisher', '~> 5.0'
+  pod 'Zoomy'
+  pod 'Action'
+  pod 'Material', '~> 3.1.0'
+  pod 'RealmSwift'
+  pod 'McPicker', '~> 3.0.0'
+  pod 'SnackBar.swift'
+
+
+
+  target 'RickAndMorty-BetaTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'RickAndMorty-BetaUITests' do
+    # Pods for testing
+  end
+
+end
