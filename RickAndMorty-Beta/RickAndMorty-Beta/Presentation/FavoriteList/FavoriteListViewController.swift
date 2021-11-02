@@ -112,6 +112,6 @@ class FavoritesListViewController : UIViewController, BindableType, UICollection
         let alertAction = UIAlertAction(title: "OK", style: .default) { UIAlertAction in
             self.viewModel.dismiss()
         }
-        self.alertAction(title: "Success", message: "Clean Favorite List", action: alertAction)
+        self.alertAction(title: "Success", message: "Cleaned Favorite List", action: alertAction)
     }
 }

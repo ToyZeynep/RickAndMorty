@@ -91,11 +91,11 @@ class CharacterListViewController : UIViewController, BindableType, UICollection
                 let favoriteList = RealmHelper.sharedInstance.fetchFavoriteList().map { $0 }
                 if let position = favoriteList.firstIndex(where: {$0.id == model.id}){
                     RealmHelper.sharedInstance.deleteFromDb(characterDetails: favoriteList[position])
-                    AppSnackBar.make(in: self.view, message: "\(model.name!) favorilerden çıkarıldı ", duration: .custom(1.0)).show()
+                    AppSnackBar.make(in: self.view, message: "\(model.name!) removed  to favorites ", duration: .custom(1.0)).show()
                     cell.characterListCellAddFavoriteButton.backgroundColor = .clear
                 }else{
                     RealmHelper.sharedInstance.addCharacterToFavorites(characterDetails: model)
-                    AppSnackBar.make(in: self.view, message: "\(model.name!) favorilere eklendi", duration: .custom(1.0)).show()
+                    AppSnackBar.make(in: self.view, message: "\(model.name!) added to favorites", duration: .custom(1.0)).show()
                     cell.characterListCellAddFavoriteButton.backgroundColor = .red
                 }
             }).disposed(by: cell.disposeBag)
