@@ -38,12 +38,14 @@ class CharacterListCoordinator: NavigationCoordinator<CharacterListRoute> {
             let viewController = CharacterDetailViewController()
             let viewModel = CharacterDetailViewModelImpl(router: unownedRouter, characterDetail: characterDetail)
             viewController.bind(to: viewModel)
+            viewController.title = "Details"
             return .push(viewController, animation: .default)
  
         case .favoriteList:
             let viewController = FavoritesListViewController()
             let viewModel = FavoriteListViewModelImpl(router: unownedRouter)
             viewController.bind(to: viewModel)
+            viewController.title = "Favorites"
             return .push(viewController, animation: .default)
             
         case .pop :

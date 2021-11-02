@@ -23,6 +23,10 @@ class CharacterDetailViewController: UIViewController, BindableType, UICollectio
     override func loadView() {
         view = characterDetailView
     }
+    override func viewWillAppear(_ animated: Bool) {
+        navigationController?.navigationBar.tintColor = .black
+    }
+    
     
     override func viewDidLoad() {
     }
