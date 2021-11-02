@@ -51,8 +51,29 @@ Versions I use:
 
 
 ## Screen Shots <a name="ScreenShots"></a>
+ <table>
+  <tr>
+    <td>CharacterList View , grid layOut</td>
+    <td>Character List View list layOut</td>
+    <td>Details View</td>
+    <td>Favorites View</td>
+    <td>Cleaned Favorites View</td>
+   
+  </tr>
+  <tr>
+    <td><img src="https://user-images.githubusercontent.com/75203610/139812686-f7d4330f-0208-4a09-8c4b-e65fd430405b.jpg" width=270 height=480></td>
+    <td><img src="https://user-images.githubusercontent.com/75203610/139812825-2ce64659-4ca0-4d21-9a6e-e1d613e5044e.jpg" width=270 height=480></td>
+    <td><img src="https://user-images.githubusercontent.com/75203610/139812783-051cd6ee-7824-4778-9dde-6349b1e6e92b.jpg" width=270 height=480></td>
+    <td><img src="https://user-images.githubusercontent.com/75203610/139812906-d4efd1eb-0279-4b8d-b243-d3b6b4d3a07e.jpg" width=270 height=480></td>
+   <td><img src="https://user-images.githubusercontent.com/75203610/139812867-95fc7d13-4363-4a54-a143-184910328920.jpg" width=270 height=480></td>
+  </tr>
+ </table>
+
 
 ## Communication <a name="Communication"></a>
 - [GitHub](https://github.com/SaniyeToy)
 - [Linkedln](https://www.linkedin.com/in/saniye-toy/)
+
+
+
 
