@@ -53,19 +53,20 @@ Versions I use:
 ## Screen Shots <a name="ScreenShots"></a>
  <table>
   <tr>
-    <td>CharacterList View , grid layOut</td>
-    <td>Character List View list layOut</td>
-    <td>Details View</td>
+    <td>Character List View ,grid layout</td>
+    <td>Character List View ,list layout</td>
+    <td>Filter McPicker</td>
     <td>Favorites View</td>
-    <td>Cleaned Favorites View</td>
+    <td>Details</td>
    
   </tr>
   <tr>
-    <td><img src="https://user-images.githubusercontent.com/75203610/139812686-f7d4330f-0208-4a09-8c4b-e65fd430405b.jpg" width=270 height=480></td>
-    <td><img src="https://user-images.githubusercontent.com/75203610/139812825-2ce64659-4ca0-4d21-9a6e-e1d613e5044e.jpg" width=270 height=480></td>
-    <td><img src="https://user-images.githubusercontent.com/75203610/139812783-051cd6ee-7824-4778-9dde-6349b1e6e92b.jpg" width=270 height=480></td>
-    <td><img src="https://user-images.githubusercontent.com/75203610/139812906-d4efd1eb-0279-4b8d-b243-d3b6b4d3a07e.jpg" width=270 height=480></td>
-   <td><img src="https://user-images.githubusercontent.com/75203610/139812867-95fc7d13-4363-4a54-a143-184910328920.jpg" width=270 height=480></td>
+    <td><img src="https://user-images.githubusercontent.com/75203610/139833872-84dc8649-551c-443d-adc2-ec849951aff7.jpg" width=280 height=480></td>
+    <td><img src="https://user-images.githubusercontent.com/75203610/139833942-146e8a5f-40a5-415d-abd7-24881229769c.jpg" width=280 height=480></td>
+    <td><img src="https://user-images.githubusercontent.com/75203610/139834006-14a51395-689e-4202-8110-bfe259732c43.jpg" width=280 height=480></td>
+    <td><img src="https://user-images.githubusercontent.com/75203610/139834115-0496d429-0b7f-4339-b91b-b5a04a493fc7.jpg" width=280 height=480></td>
+    <td><img src="https://user-images.githubusercontent.com/75203610/139834178-4028e3a3-0990-46a1-85f8-b417e4b23246.jpg" width=280 height=480></td>
+   
   </tr>
  </table>
 
