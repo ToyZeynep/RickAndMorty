@@ -35,8 +35,8 @@
 - [XCoordinator](https://github.com/quickbirdstudios/XCoordinator)
 - [RealmSwift](https://github.com/realm/realm-cocoa)
 - [KingFisher](https://github.com/onevcat/Kingfisher)
-- [SnackBar](https://github.com/ahmedAlmasri/SnackBar.swift)
- 
+- [SnackBar](https://github.com/ahmedAlmasri/SnackBar.swift) 
+- [McPicker](https://github.com/kmcgill88/McPicker-iOS)
 ## Usage <a name="Usage"></a>
 Rick and Morty is the application where the characters in the rick and morty series are listed with their features. In the character list view, sorting, filtering, list layout changes and adding and removing to favorites are done with the help of buttons. The favorite button on the screen will take you to the favorite list. Tapping one of the cells on the collection view will take you to the details view. Here are the character details.
 
