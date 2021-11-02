@@ -26,6 +26,7 @@
 - Ability to change list view sizes in Run Time
 - The operations to be done on the project created on Git are divided into branches and the project is completed over the branches
 - Care was taken to ensure that in-app method and variable naming are in English and comprehensible
+- In the application, the characters can be sorted and filtered according to the specified criteria.
 
 ## Used Methods and Libraries <a name="UsedMethodsandLibraries"></a>
 - [Alamofire](https://github.com/Alamofire/Alamofire)
