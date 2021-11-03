@@ -28,7 +28,4 @@ protocol SplashViewModel {
 extension SplashViewModel where Self: SplashViewModelInput & SplashViewModelOutput {
     var input: SplashViewModelInput { return self }
     var output: SplashViewModelOutput { return self }
-    
-
-    
 }

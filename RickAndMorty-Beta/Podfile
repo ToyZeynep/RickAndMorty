@@ -20,7 +20,7 @@ target 'RickAndMorty-Beta' do
   pod 'RealmSwift'
   pod 'McPicker', '~> 3.0.0'
   pod 'SnackBar.swift'
-
+  pod 'SwiftGifOrigin', '~> 1.7.0'
 
 
   target 'RickAndMorty-BetaTests' do

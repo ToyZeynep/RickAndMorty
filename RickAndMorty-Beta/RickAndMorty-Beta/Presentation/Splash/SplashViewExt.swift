@@ -16,7 +16,7 @@ extension SplashView {
         splashContentView.setLeft(equalTo: leftAnchor)
         splashContentView.setRight(equalTo: rightAnchor)
         splashContentView.setBottom(equalTo: bottomAnchor)
-        
+    
         setUpSplashImageView()
  
     }

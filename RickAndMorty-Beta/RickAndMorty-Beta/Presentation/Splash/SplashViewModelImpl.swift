@@ -25,6 +25,9 @@ class SplashViewModelImpl: SplashViewModel, SplashViewModelInput, SplashViewMode
     
     init(router: UnownedRouter<AppRoute>) {
         self.router = router
+     //   DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
+           // self.navigateToCharacterList()
+        //}
     }
     
     func navigateToCharacterList() {

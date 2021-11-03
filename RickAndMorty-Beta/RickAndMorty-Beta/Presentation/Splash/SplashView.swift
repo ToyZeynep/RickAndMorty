@@ -8,23 +8,23 @@
 import Foundation
 import UIKit
 import Material
-
+import SwiftGifOrigin
 class SplashView: UIView {
     
     lazy var splashContentView: UIView = {
         let view = UIView()
-        view.backgroundColor = .white
+        view.backgroundColor =  UIColor(rgb: 0x0f0e0d)
         view.translatesAutoresizingMaskIntoConstraints = false
         return view
     }()
     
     lazy var splashImageView: UIImageView = {
-       let imageView = UIImageView()
-        imageView.image = UIImage(named: "splash.jpg")
-        imageView.translatesAutoresizingMaskIntoConstraints = false
-        imageView.contentMode = .scaleAspectFill
-        return imageView
-    }()
+            let imageView = UIImageView()
+            imageView.loadGif(asset: "splashGif")
+            imageView.translatesAutoresizingMaskIntoConstraints = false
+        imageView.contentMode = .scaleAspectFit
+            return imageView
+        }()
     
     override init(frame: CGRect) {
         super.init(frame: frame)

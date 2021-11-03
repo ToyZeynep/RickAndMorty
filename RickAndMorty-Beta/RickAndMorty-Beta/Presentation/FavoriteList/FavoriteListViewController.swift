@@ -70,7 +70,7 @@ class FavoritesListViewController : UIViewController, BindableType, UICollection
             cell.favoritesListCellDeleteFavoriteButton.backgroundColor = .red
             
             cell.favoritesListCellDeleteFavoriteButton.addTapGesture {
-                print("----tıkı tıkı----")
+                AppSnackBar.make(in: self.view, message: "\(model.name!) removed  to favorites ", duration: .custom(1.0)).show()
                 RealmHelper.sharedInstance.deleteFromDb(characterDetails: model)
                 self.viewModel.fetchFavoriteList()
             }

@@ -22,9 +22,7 @@ class SplashViewController: UIViewController,BindableType {
     }
     
     override func viewDidLoad() {
-        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-            self.viewModel.navigateToCharacterList()
-        }
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {
