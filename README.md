@@ -1,4 +1,4 @@
-![logo](https://user-images.githubusercontent.com/75203610/139696071-741b0e0e-1e48-4818-8462-242f8168fc86.png)
+![logo](https://thumbs.gfycat.com/ImaginativeWhoppingChital-size_restricted.gif)
 
  ### It is an application where you can add the characters you like to your favorites with the details about the characters in the Rick And Morty series using its [RickAndMorty](https://rickandmortyapi.com/) and filter the characters according to some criteria.
 
