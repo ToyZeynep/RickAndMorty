@@ -154,7 +154,7 @@ class CharacterListViewController : UIViewController, BindableType, UICollection
     }
     func gridButtonProcesses(){
         self.characterListView.characterListCollectionView.collectionViewLayout = self.isGrid ? self.listFlowLayout : self.gridFlowLayout
-        self.characterListView.characterListGridButton.setImage( self.isGrid ? UIImage(named: "list2.png")?.withRenderingMode(.alwaysTemplate) : UIImage(named: "grid2.png")?.withRenderingMode(.alwaysTemplate), for: .normal)
+        self.characterListView.characterListGridButton.setImage( self.isGrid ? UIImage(named: "listFill.png")?.withRenderingMode(.alwaysTemplate) : UIImage(named: "gridFill.png")?.withRenderingMode(.alwaysTemplate), for: .normal)
         self.isGrid = !self.isGrid
         
     }

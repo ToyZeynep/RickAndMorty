@@ -11,8 +11,6 @@ import XCoordinator
 
 class SplashViewModelImpl: SplashViewModel, SplashViewModelInput, SplashViewModelOutput {
     
-    
-    
     // MARK: -Inputs-
     
     // MARK: -Outputs-
@@ -25,9 +23,9 @@ class SplashViewModelImpl: SplashViewModel, SplashViewModelInput, SplashViewMode
     
     init(router: UnownedRouter<AppRoute>) {
         self.router = router
-     //   DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
-           // self.navigateToCharacterList()
-        //}
+        DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
+           self.navigateToCharacterList()
+        }
     }
     
     func navigateToCharacterList() {
